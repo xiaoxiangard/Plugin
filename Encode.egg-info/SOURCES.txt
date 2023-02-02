@@ -1,0 +1,13 @@
+README.md
+setup.py
+Encode/__init__.py
+Encode/encode_plugin.py
+Encode.egg-info/PKG-INFO
+Encode.egg-info/SOURCES.txt
+Encode.egg-info/dependency_links.txt
+Encode.egg-info/entry_points.txt
+Encode.egg-info/not-zip-safe
+Encode.egg-info/requires.txt
+Encode.egg-info/top_level.txt
+Tests/__init__.py
+Tests/test_encode.py

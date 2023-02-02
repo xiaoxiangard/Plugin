@@ -6,8 +6,8 @@ __author__: wangxiaoxiang
 """
 from setuptools import setup, find_packages
 setup(
-    name='encode_plugin',
-    url='git@github.com:xiaoxiangard/wang_demo.git',
+    name='Encode',
+    url='git@github.com:xiaoxiangard/Plugin.git',
     version='1.0',
     author="wangxiaoxiang",
     author_email='526420380@qq.com',
@@ -21,9 +21,9 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     license='proprietary',
-    packages=find_packages(),  # ['encode_plugin'],
+    packages=find_packages(),  # ['Encode'],
     keywords=[
-        'pytest', 'py.test', 'encode_plugin',
+        'pytest', 'py.test', 'Encode',
     ],
 
     # 需要安装的依赖
@@ -33,7 +33,7 @@ setup(
     # 入口模块 或者入口函数
     entry_points={
         'pytest11': [
-            'encode_plugin = Encode.encode_plugin',
+            'Encode = Encode.encode_plugin',
         ]
     },
     zip_safe=False
